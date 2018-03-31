@@ -10,6 +10,7 @@ var url = require('url');
 var StringDecoder = require('string_decoder').StringDecoder;
 var config = require('./config');
 var fs = require('fs');
+var handlers = require('./lib/handlers');
 
 // Instantiate HTTP server
 var httpServer = http.createServer(function(req, res){
@@ -98,19 +99,8 @@ var unifiedServer = function(req, res) {
     });    
 }
 
-// Define handlers
-var handlers = {};
-
-handlers.ping = function(data, callback) {
-    callback(200);
-}
-
-// Not found handler
-handlers.notFound = function(data, callback) {
-    callback(404);
-};
-
 // Define a router
 var router = {
-    'ping': handlers.ping
+    'ping': handlers.ping,
+    'users': handlers.users
 };
