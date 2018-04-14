@@ -4,7 +4,7 @@
 
  // Dependencies
  var server = require('./lib/server');
- var worker = require('./lib/workers');
+ var workers = require('./lib/workers');
 
  // Declare the app
  var app = {};
@@ -15,7 +15,7 @@
     server.init();
 
     // Strat the worker
-    worker.init();
+    workers.init();
  };
 
  // Execute
