@@ -1,5 +1,5 @@
 /**
- * Primary file for the API
+ * Primary file for the API...
  */
 
  // Dependencies
@@ -11,7 +11,7 @@
 
  // Init function
  app.init = function() {
-    // Start the server
+    // Start the server..
     server.init();
 
     // Strat the worker
