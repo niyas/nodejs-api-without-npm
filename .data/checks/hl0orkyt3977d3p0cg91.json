@@ -1,1 +1,1 @@
-{"id":"hl0orkyt3977d3p0cg91","userPhone":"9994820856","protocol":"https","url":"google.co.uk","method":"get","successCodes":[200,201,301,302],"timeoutSeconds":4,"state":"down","lastChecked":1524548958533}
+{"id":"hl0orkyt3977d3p0cg91","userPhone":"9994820856","protocol":"https","url":"google.com","method":"get","successCodes":[200,201,301,302,400],"timeoutSeconds":4,"state":"down","lastChecked":1524551149878}

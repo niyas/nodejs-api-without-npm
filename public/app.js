@@ -124,6 +124,7 @@ app.bindForms = function(){
   if(document.querySelector("form")){
 
     var allForms = document.querySelectorAll("form");
+    console.log(allForms);
     for(var i = 0; i < allForms.length; i++){
         allForms[i].addEventListener("submit", function(e){
 
