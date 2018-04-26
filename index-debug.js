@@ -16,19 +16,18 @@
     // Start the server..
     debugger;
     server.init();
-    debugger;
+
     // Strat the worker
     debugger;
     workers.init();
-    debugger;
+
 
     // Start the CLI, but make sure it starts last
     debugger;
     setTimeout(function() {
         cli.init();
-        debugger;
     }, 50);
-    debugger;
+
 
     // Set foo to 1
     debugger;
